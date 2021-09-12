@@ -1,0 +1,214 @@
+body{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    font-family:"Segoe UI",Arial,sans-serif;
+}
+.container1{
+    width:18%;
+    float:left;
+    height:100%;
+    background-color:#f44336;
+    color:#fff;
+    font-size:20px;
+    position:fixed;
+}
+#companyname{
+    height:70px;
+    margin:0px;
+    padding:80px 30px;
+    font-weight:light;
+    font-size:28px;
+}
+#header{
+    text-align:center;
+    padding:10px;
+    margin:0px;
+}
+.container1 #header:hover{
+    background-color:#C6C6C6;
+    color:black;
+}
+
+.container1 a{
+    text-decoration:none;
+    color:#fff;
+    padding:10px 15px;
+    display:block;
+    margin:0px 15px;
+    font-size:20px;
+    font-weight:bold;
+}
+.container1 a:hover{
+    background-color:#fff;
+    color:black;
+}
+.container2{
+    width:82%;
+    float:right;
+    
+}
+.container2 h1{
+    margin:0px;
+    padding:90px 50px 10px;
+    font-size:350%;
+    font-weight:light;
+}
+.container2 h2{
+    margin:0px;
+    padding:10px 50px;
+    font-size:250%;
+    font-weight:light;
+    color:#f44336;
+}
+.container2 #hr{
+    border-radius:4px;
+    border:5px solid #f44336;
+    width:50px;
+    margin:20px 50px;
+}
+.imagescontainer{
+    padding:20px 50px;
+}
+.imagescontainer img{
+    width:550px;
+    height:450px;
+    padding:3px 5px;
+    opacity:0.8;
+    cursor:pointer;
+}
+.imagescontainer img:hover{
+    opacity:1;
+}
+.imagescontainer .image{
+    height:300px;
+}
+.services,.designers{
+    padding:50px 50px;
+}
+.services p{
+    font-size:18px;
+}
+.services h2{
+    padding:0px;
+}
+.sephr{
+    border-radius:4px;
+    border:5px solid #f44336;
+    width:50px;
+    margin:20px 0px;
+}
+.team{
+    width:360px;
+    height:240px;
+}
+.card{
+    display:inline-block;
+    background-color:#F2F2F2;
+    margin:0px 4px;
+}
+.card h5{
+    font-size:23px;
+    font-weight:500;
+    margin:0px;
+    padding:10px 15px;
+}
+.job{
+     margin:10px 10px;
+     color:#9E9999;
+}
+.card p{
+    margin:15px;
+}
+.packages h2{
+    padding:0px;
+}
+.packages{
+    padding:75px 50px;
+}
+.packages p{
+    font-size:18px;
+}
+.anothercard{
+    width:556px;
+    display:inline-block;
+    margin:0px 5px;
+}
+.anothercard h4{
+    margin:0px;
+    text-align:center;
+    padding:30px;
+    color:#fff;
+    background-color:#616161;
+    font-weight:380;
+    font-size:28px;
+}
+.anothercard p{
+    border-top:0.5px solid #D6D4D4;
+    margin:0px;
+    text-align:center;
+    padding:18px;
+    color:black;
+    background-color:#f1f1f1;
+}
+#redcard{
+    background-color:#f44336;
+}
+.anothercard .price{
+    font-size:32px;
+}
+.anothercard .room{
+    color:#8C8C8C;
+    font-weight:360;
+}
+.anothercard p a{
+    text-decoration:none;
+    color:black;
+    padding:13px 20px;
+    background-color:#fff;
+}
+.anothercard p a:hover{
+    background-color:black;
+    color:#fff;
+}
+#redlink{
+    background-color:#f44336;
+    color:#fff;
+}
+#redlink:hover{
+    background-color:black;
+}
+.contact{
+    
+    padding:70px 50px;
+}
+.contact h2{
+    padding:0px;
+}
+.contact input{
+    width:100%;
+    height:42px;
+}
+.contact button{
+    background-color:#f44336;
+    color:#fff;
+    width:100%;
+    text-decoration:none;
+    padding:15px;
+    font-size:17px;
+    border:none;
+    cursor:pointer;
+}
+.contact button:hover{
+    background-color:#C4C4C4;
+    color:black;
+}
+.theend{
+    width:100%;
+    background-color:#f1f1f1;
+    text-align:center;
+    padding:50px 0px;
+    font-weight:bold;
+    font-size:130%;
+    margin-top:40px;
+}
